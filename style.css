@@ -1,0 +1,152 @@
+.header {
+    border: 2px solid greenyellow; 
+    text-align: center;
+}
+
+nav li {
+    font-size: 40px; 
+    padding: 25px;
+    display: inline-block;
+}
+
+nav li:hover {
+    font-size: 40px; 
+    padding: 25px;
+    display: inline-block;
+    text-shadow: 1px 1px blue;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+.titulo {
+    font-size: 40px; 
+    border: 2px solid greenyellow; 
+    max-width: 140px;
+    margin-left: 45%;
+    text-align: center;
+    transition: 300ms;
+}
+
+/* Novidades é a mesma coisa que titulo porem especifico para pagina novidades*/
+.novidades {
+    font-size: 40px; 
+    border: 2px solid greenyellow; 
+    max-width: 200px;
+    margin-left: 45%;
+    text-align: center;
+}
+/* Contato é a mesma coisa que titulo porem especifico para pagina de contato*/
+.contato {
+    font-size: 40px; 
+    border: 2px solid greenyellow; 
+    max-width: 400px;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.caixa_conteudo {
+    border: 2px solid black;
+    padding: 30px 0px 30px 30px;
+    inline-size: 80%;
+    margin-left: 8%;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+
+.caixa_conteudo:hover {
+    border: 2px solid blue;
+    padding: 30px 0px 30px 30px;
+    inline-size: 80%;
+    margin-left: 8%;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    opacity: 70%;
+}
+
+
+.caixa_conteudo ul {
+    margin: 0px;
+    padding: 0px;
+    max-width: 98%;
+}
+
+.assunto_conteudo {
+    display: inline-block;
+    border-right: 2px solid black;
+    padding: 0 5px 0 0;
+}
+
+.conteudo {
+    display: inline-block;
+    padding: 0px 6%;
+}
+
+
+/* Caixa da pagina de Opções  */
+
+.caixa {
+    border: 2px solid black;
+    width: 940px;
+    height: 470px;
+    position: relative;
+    padding: 30px;
+    display: inline-block;
+    margin-left: 25%;
+    
+}
+
+.conteudo_opcoes {
+    border: 2px solid black;
+    position: relative;
+    padding: 150px;
+    text-align: center;
+    width: 100px;
+    left: 300px;
+    bottom: 100px;
+}
+
+/* Caixa da pagina de Contato  */
+
+.caixa_contato {
+    border: 2px solid black;
+    width: 940px;
+    height: auto;
+    position: relative;
+    padding: 30px;
+    display: inline-block;
+    margin-left: 25%;
+    
+}
+
+form label {
+    display: block;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 530px;
+    height: 130px;
+}
+
+/* Rodapé */
+
+footer {
+    padding: 0 0 0 40px;
+    margin: 30px 0 0 0;
+    position: absolute;
+}
+footer a {
+    padding: 50px;
+}
